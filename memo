@@ -1,0 +1,5 @@
+ 
+                    @foreach($categories as $category)
+                    <option value="{{ $category->id }}" selected>{{$category->content }}
+                    </option>
+                    @endforeach  

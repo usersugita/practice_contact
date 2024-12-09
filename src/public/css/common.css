@@ -1,0 +1,47 @@
+.app {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+.header {
+    display: flex;
+    /* フレックスボックスでレイアウトを制御 */
+    justify-content: space-between;
+    /* 左右のスペースを自動的に調整 */
+    align-items: center;
+    /* 垂直方向を中央揃え */
+    padding: 30px 20px;
+    /* ヘッダーの余白を設定 */
+    border-bottom: 1px solid #ddd;
+    /* 下に境界線を設定 */
+    position: relative;
+    /* 相対位置を利用 */
+}
+
+.header__heading {
+    font-size: 24px;
+    /* フォントサイズを設定 */
+    font-weight: bold;
+    /* 太字 */
+    color: #333;
+    /* テキストの色 */
+    margin: 0;
+    /* 余白をリセット */
+    position: absolute;
+    /* 絶対位置で中央配置を実現 */
+    left: 50%;
+    /* 左端から中央へ移動 */
+    transform: translateX(-50%);
+    /* 自身の幅分だけ戻すことで中央揃え */
+}
+
+.header-item {
+    font-size: 16px;
+    /* リンク部分のフォントサイ */
+    color: #007bff;
+    /* リンクの色 */
+    text-decoration: none;
+    /* 下線を削除 */
+    margin-left: auto;
+    /* 右端に配置 */
+}

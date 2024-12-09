@@ -1,0 +1,96 @@
+.contact-form{
+    margin:0 auto;
+    width: 60%;
+}
+.contact-form__logo{
+    text-align: center;
+}
+.contact-form__inner{
+     background: white;
+     padding: 40px;
+}
+label{
+    width: 300px;
+}
+.contact-form__name,
+.contact-form__gender,
+.contact-form__email,
+.contact-form__tell,
+.contact-form__address,
+.contact-form__building,
+.contact-form__category
+{
+
+margin-bottom: 20px;
+display: flex;
+align-items: center;
+}
+.contact-form__name-input{
+    width: 100%;
+display: flex;
+justify-content: space-between;
+}
+.contact-form__name input{
+width: 45%;
+height: 25px;
+border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.contact-form__gender input{
+margin-right: 10px;
+}
+.contact-form__email-input,
+.contact-form__address-input,
+.contact-form__building-input
+{
+    width: 100%;
+}
+.contact-form__tell-input{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.contact-form__tell input{
+    width: 30%;
+height: 25px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+.contact-form__email input,
+.contact-form__address input,
+.contact-form__building input{
+    width: 100%;
+    height: 25px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+.contact-form__category_id-input,
+.contact-form__detail-input{
+    width: 100%;
+}
+
+.contact-form__category select{
+height: 25px;
+border: 1px solid #ccc;
+    border-radius: 5px;
+}
+.contact-form__detail{
+    display: flex;
+}
+.contact-form__detail textarea{
+    width: 100%;
+    border: 1px solid #ccc;
+        border-radius: 5px;
+}
+.contact-form__btn{
+    display: block;
+    margin: 0 auto;
+text-align: center;
+height: 30px;
+cursor: pointer;
+}
+.contact-form__error-message{
+    text-align: center;
+    color: red
+}
