@@ -18,7 +18,7 @@
 
 4..envに以下の環境変数を追加
 
-DB_CONNECTION=mysql
+DB_CONNECTION=mysql  
 DB_HOST=mysql  
 DB_PORT=3306  
 DB_DATABASE=laravel_db  
